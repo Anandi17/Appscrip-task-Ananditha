@@ -1,0 +1,15 @@
+@font-face { /* optional: include Roboto or system fonts via CSS */ }
+:root{
+--max-width:1200px;
+--muted:#666;
+}
+*{ box-sizing:border-box; }
+html,body,#__next{ height:100%; }
+body{ margin:0; font-family: Inter, Roboto, system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial; color:#111; }
+a{ color:inherit; }
+.container{ max-width:var(--max-width); margin:0 auto; padding:0 16px; }
+.visually-hidden{ position:absolute !important; clip:rect(1px,1px,1px,1px); height:1px; width:1px; overflow:hidden; white-space:nowrap; }
+
+
+/* accessibility helpers */
+button{ cursor:pointer }
